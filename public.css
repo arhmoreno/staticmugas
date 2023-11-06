@@ -107,8 +107,6 @@ audio,
 canvas,
 video {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
 }
 audio:not([controls]) {
   display: none;
@@ -171,7 +169,7 @@ input {
 }
 .s-cf,
 .s-container {
-  *zoom: 1;
+  zoom: 1;
 }
 .s-hide {
   display: none;
@@ -530,7 +528,7 @@ a:focus {
 }
 #progressbar .inner-therm span {
   display: inline-block;
-  float: right;
+  float: none;
   font-weight: bold;
   line-height: 100%;
   padding: 0 10px;
